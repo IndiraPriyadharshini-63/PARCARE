@@ -1,14 +1,12 @@
-
 import './App.css';
-import Header from './components/Header';
-import Sidebar from './components/Sidebar';
+import React from 'react';
+import Registration from './components/Registration';
+
+
 
 function App() {
   return (
-    <div >
-      <Header />
-      <Sidebar />
-    </div>
+<Registration />
   );
 }
 
